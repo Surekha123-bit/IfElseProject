@@ -1,1 +1,147 @@
-/* You can add global styles to this file, and also import other style files */
+.container{
+    max-width:2220px;
+    max-height:1080px;
+    background-color: rgb(243, 242, 242);
+}
+
+.border{
+      border-radius: 10px solid black;  
+      opacity: 1;
+}
+
+.div1{
+    background-color:blue;
+    width:50px;
+    height:40px;
+}
+.div2{
+    background-color: white;
+}
+.he{height:700px;
+width:50px}
+
+.he2{height:50px;
+    width:1700px;
+    background-color: white;}
+    
+.he3{height:40px;
+        width:1160px;
+        background-color: white;}
+        
+.he4{height:620px;
+            width:1000px;
+            margin-left:110px;
+}
+            /* background-color: white;}     */
+
+.input1 {
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color: white;
+}
+.h5{
+    height:100px;
+    width:223px;
+    background-color: white;
+    display:block;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.h6{
+    height:300px;
+    width:610px;
+    background-color: white;
+    display:block;
+    padding: 10px;
+    margin-left: 145px;
+    margin-top:-500px;
+}
+
+.h7{
+    height:300px;
+    width:330px;
+    background-color:white;
+    display:block;
+    padding: 10px;
+    margin-left: 765px;
+    margin-top:-500px;
+}
+.h8{
+    height:200px;
+    width:340px;
+    background-color:white;
+    display:block;
+    padding: 10px;
+    margin-left: 145px;
+    margin-top:-200px;
+}
+.h9{
+    height:200px;
+    width:340px;
+    background-color:white;
+    display:block;
+    padding: 10px;
+    margin-left: 500px;
+    margin-top:-200px;
+}
+.h10{
+    height:200px;
+    width:250px;
+    background-color:white;
+    display:block;
+    padding: 10px;
+    margin-left: 850px;
+    margin-top:-200px;
+}
+.color{
+    color: white;
+    opacity: 1;
+}
+
+.scrollbar{
+    overflow: auto; 
+    width: 25vw;
+    height: 41vh;
+    border: 0px solid black;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-top:80px;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+}
+
+.progress-bar {
+  width: 70px;
+  height: 8px;
+  background-color: #222;
+}
+
+.progress-bar-fill {
+  background-color: #5F5;
+  height: 100%; /* This is important */
+}
+
+.scrollbar1{
+    overflow: auto; 
+    width: 45vw;
+    height: 41vh;
+    border: 0px solid black;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-top:80px;
+  }
+  ::-webkit-scrollbar1 {
+    display: none;
+}
