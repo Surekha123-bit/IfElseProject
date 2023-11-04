@@ -77,8 +77,8 @@
                           </tr>
                         </thead>
                         <tbody>
-                            <tr *ngFor="let order of orders">
-                                <td></td>
+                            <tr *ngFor="let order of orders let i= index">
+                                <td> {{i+1}} </td>
                                 <td>{{ order.name }}</td>
                                 <td>{{ order.product }}</td>
                                 <td>{{ order.delivery_date }}</td>
